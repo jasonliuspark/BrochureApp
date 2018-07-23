@@ -1,0 +1,13 @@
+<view class='function_container'>
+  <view class='function_item' wx:for="{{functions}}" wx:for-index="idx" wx:for-item="function">
+    <image class='function_img' src='{{function.pic_url}}' />
+    <view class='function_name'>{{function.name}}</view>
+  </view>
+</view>
+<view class='divider' />
+
+<view class='specialities_layout'>
+  <view class='view_divider' />
+  <image class='grid_image'>{images}</image>
+</view>
+<!-- <image class='bottom-image' src='../../images/app_banner.jpg' /> -->
