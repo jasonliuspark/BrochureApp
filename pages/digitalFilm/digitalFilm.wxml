@@ -1,0 +1,5 @@
+<!--pages/digitalFilm/digitalFilm.wxml-->
+<view class='digitalFilmSection' bindtouchstart='touchStart' bindtouchend='touchEnd' >
+  <image class='digitalFilmImage' src='../pictures/hinacom.png' ></image>
+  <text class='digitalFilmDescription'>电子胶片</text>
+</view>

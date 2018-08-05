@@ -1,0 +1,47 @@
+/* pages/produrcts/products.wxss */
+
+.content {
+  height: 1218rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.miPlatformBlockBgd {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #39f;
+}
+
+.telemedBlockBgd {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #369;
+}
+
+.miShareBlockBgd {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #39f;
+}
+
+.miPlatformLogo {
+  height: 120rpx;
+  
+}
+
+.hinacomLogo {
+height: 120rpx;
+}
+
+.miShareLogo {
+height: 140rpx;
+}

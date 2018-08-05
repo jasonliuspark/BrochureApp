@@ -1,0 +1,6 @@
+<!--pages/qrCode/qrCode.wxml-->
+<view class='qrCodeContainer' bindtouchstart='touchStart' bindtouchend='touchEnd'>
+  <text class='followUsText'>关注我们</text>
+  <image class='qrCodeImage' src='../pictures/hinacom.png'>
+  </image>
+</view>

@@ -1,11 +1,16 @@
 {
   "pages": [
-    "pages/mosaic/mosaic"
+    "pages/products/products",
+    "pages/digitalFilm/digitalFilm",
+    "pages/mosaic/mosaic",
+    "pages/qrCode/qrCode",
+    "pages/frontPageDetail/frontPageDetail",
+    "pages/productDetail/productDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "海纳医信",
     "navigationBarTextStyle": "black"
   }
 }

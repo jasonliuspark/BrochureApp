@@ -1,0 +1,10 @@
+/* pages/frontPageDetail/frondPageDetail.wxss */
+.detailDisplayErea{
+
+}
+.detailImage{
+  width: 100%;
+display: felx;
+justify-content: center;
+height: 500rpx;
+}

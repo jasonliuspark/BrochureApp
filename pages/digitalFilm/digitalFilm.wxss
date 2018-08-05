@@ -1,0 +1,15 @@
+/* pages/digitalFilm/digitalFilm.wxss */
+
+.digitalFilmSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digitalFilmImage {
+  width: 100%;
+}
+
+.digitalFilmDescription {
+  padding-top: 100rpx;
+}

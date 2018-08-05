@@ -1,0 +1,9 @@
+<!--pages/frontPageDetail/frondPageDetail.wxml-->
+<view class='animationContainer' animation="{{animation}}">
+  <view>
+    <image class='detailImage' src='{{item}}'> </image>
+  </view>
+  <view>
+    <text class='detailExplaination'>{{detailText}}</text>
+  </view>
+</view>

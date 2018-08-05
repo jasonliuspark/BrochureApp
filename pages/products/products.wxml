@@ -1,0 +1,16 @@
+<!--pages/produrcts/products.wxml-->
+<view class='content' bindtouchstart='touchStart' bindtouchend='touchEnd'>
+  <view class='miPlatformBlockBgd' bindtap='miPlatformTap'>
+    <image class='miPlatformLogo' src='../pictures/hinacom.png'></image>
+    <text class='miPlatformText'>some text</text>
+  </view>
+  <view class='telemedBlockBgd' bindtap='telemedTap'>
+    <image class='hinacomLogo' src='../pictures/hinacom.png'></image>
+    <text class='telemedText'>some text</text>
+  </view>
+
+  <view class='miShareBlockBgd' bindtap='miShareTap'>
+      <image class='miShareLogo' src='../pictures/hinacom.png'></image>
+      <text class='miShareText'>some text</text>
+  </view>
+</view>

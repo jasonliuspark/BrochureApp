@@ -1,13 +1,12 @@
-<view class='function_container'>
-  <view class='function_item' wx:for="{{functions}}" wx:for-index="idx" wx:for-item="function">
-    <image class='function_img' src='{{function.pic_url}}' />
-    <view class='function_name'>{{function.name}}</view>
+<view class='detailDisplayErea' bindtouchstart='touchStart' bindtouchend='touchEnd'>
+  <view class="logoArea">
+    <image class="logoImage" src="../pictures/hinacom.png"> </image>
+  </view>
+  <view class="parent">
+    <block class="parent" wx:for="{{datas}}">
+      <navigator class="navigator" url="../frontPageDetail/frontPageDetail?item={{item}}">
+        <image class="child" src="{{item}}"></image>
+      </navigator>
+    </block>
   </view>
 </view>
-<view class='divider' />
-
-<view class='specialities_layout'>
-  <view class='view_divider' />
-  <image class='grid_image'>{images}</image>
-</view>
-<!-- <image class='bottom-image' src='../../images/app_banner.jpg' /> -->
